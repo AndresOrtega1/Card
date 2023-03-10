@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 16px;
+  width: 300px;
+  text-align: center;
+}
+
+.card-header {
+  margin-bottom: 16px;
+}
+
+.card-header h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.card-header h3 {
+  font-size: 16px;
+  margin: 8px 0 0;
+}
+
+.card-body p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.badge {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 16px;
+}
